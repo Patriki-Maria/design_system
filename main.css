@@ -879,5 +879,56 @@ button {
     padding-bottom: 50px;
   }
 }
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.end {
+  justify-content: end;
+}
+
+.center {
+  justify-content: center;
+}
+
+.start {
+  justify-content: start;
+}
 
 /*# sourceMappingURL=main.css.map */
