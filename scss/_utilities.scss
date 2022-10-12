@@ -49,3 +49,165 @@
 .start{
   justify-content: start;
 }
+
+@media (max-width: 480px) {
+  .sm-flex{
+    display: flex;
+  }
+
+  .sm-block{
+    display: block;
+  }
+  
+  .sm-inline{
+    display: inline;
+  }
+  
+  .sm-hidden{
+    display: none;
+  }
+  
+  .sm-absolute{
+    position: absolute;
+  }
+  
+  .sm-relative{
+    position: relative;
+  }
+  
+  .sm-fixed{
+    position: fixed;
+  }
+  
+  .sm-sticky{
+    position: sticky;
+  }
+  
+  .sm-space-between{
+    justify-content: space-between;
+  }
+  
+  .sm-space-around{
+    justify-content: space-around;
+  }
+  
+  .sm-end{
+    justify-content: end;
+  }
+  
+  .sm-center{
+    justify-content: center;
+  }
+  
+  .sm-start{
+    justify-content: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .md-flex{
+    display: flex;
+  }
+
+  .md-block{
+    display: block;
+  }
+  
+  .md-inline{
+    display: inline;
+  }
+  
+  .md-hidden{
+    display: none;
+  }
+  
+  .md-absolute{
+    position: absolute;
+  }
+  
+  .md-relative{
+    position: relative;
+  }
+  
+  .md-fixed{
+    position: fixed;
+  }
+  
+  .md-sticky{
+    position: sticky;
+  }
+  
+  .md-space-between{
+    justify-content: space-between;
+  }
+  
+  .md-space-around{
+    justify-content: space-around;
+  }
+  
+  .md-end{
+    justify-content: end;
+  }
+  
+  .md-center{
+    justify-content: center;
+  }
+  
+  .md-start{
+    justify-content: start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lg-flex{
+    display: flex;
+  }
+
+  .lg-block{
+    display: block;
+  }
+  
+  .lg-inline{
+    display: inline;
+  }
+  
+  .lg-hidden{
+    display: none;
+  }
+  
+  .lg-absolute{
+    position: absolute;
+  }
+  
+  .lg-relative{
+    position: relative;
+  }
+  
+  .lg-fixed{
+    position: fixed;
+  }
+  
+  .lg-sticky{
+    position: sticky;
+  }
+  
+  .lg-space-between{
+    justify-content: space-between;
+  }
+  
+  .lg-space-around{
+    justify-content: space-around;
+  }
+  
+  .lg-end{
+    justify-content: end;
+  }
+  
+  .lg-center{
+    justify-content: center;
+  }
+  
+  .lg-start{
+    justify-content: start;
+  }
+}
