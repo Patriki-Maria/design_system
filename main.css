@@ -1054,5 +1054,76 @@ button {
     justify-content: start;
   }
 }
+.color-primary {
+  color: rgb(253, 191, 162);
+}
+
+.bg-color-primary {
+  background-color: rgb(253, 191, 162);
+}
+
+.br-color-primary {
+  border-color: rgb(253, 191, 162);
+}
+
+.color-light-primary {
+  color: rgb(247, 228, 220);
+}
+
+.bg-color-light-primary {
+  background-color: rgb(247, 228, 220);
+}
+
+.br-color-light-primary {
+  border-color: rgb(247, 228, 220);
+}
+
+.color-dark-primary {
+  color: rgb(122, 92, 77);
+}
+
+.bg-color-dark-primary {
+  background-color: rgb(122, 92, 77);
+}
+
+.br-color-dark-primary {
+  border-color: rgb(122, 92, 77);
+}
+
+.color-secondary {
+  color: rgb(0, 98, 179);
+}
+
+.bg-color-secondary {
+  background-color: rgb(0, 98, 179);
+}
+
+.br-color-secondary {
+  border-color: rgb(0, 98, 179);
+}
+
+.color-light-secondary {
+  color: rgb(90, 180, 253);
+}
+
+.bg-color-light-secondary {
+  background-color: rgb(90, 180, 253);
+}
+
+.br-color-light-secondary {
+  border-color: rgb(90, 180, 253);
+}
+
+.color-dark-secondary {
+  color: rgb(1, 46, 83);
+}
+
+.bg-color-dark-secondary {
+  background-color: rgb(1, 46, 83);
+}
+
+.br-color-dark-secondary {
+  border-color: rgb(1, 46, 83);
+}
 
 /*# sourceMappingURL=main.css.map */

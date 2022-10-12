@@ -1,0 +1,22 @@
+$colors: (
+  primary: rgb(253, 191, 162),
+  light-primary: rgb(247, 228, 220),
+  dark-primary: rgb(122, 92, 77),
+  secondary: rgb(0, 98, 179),
+  light-secondary: rgb(90, 180, 253),
+  dark-secondary: rgb(1, 46, 83),
+);
+
+@each $name, $value in $colors {
+  .color-#{$name} {
+    color: $value;
+  }
+
+  .bg-color-#{$name} {
+    background-color: $value;
+  }
+
+  .br-color-#{$name} {
+    border-color: $value;
+  }
+}
