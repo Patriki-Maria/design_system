@@ -50,6 +50,10 @@
   justify-content: start;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 @media (max-width: 480px) {
   .sm-flex{
     display: flex;
@@ -101,6 +105,10 @@
   
   .sm-start{
     justify-content: start;
+  }
+
+  .sm-wrap {
+    flex-wrap: wrap;
   }
 }
 
@@ -156,6 +164,10 @@
   .md-start{
     justify-content: start;
   }
+
+  .md-wrap {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -209,5 +221,9 @@
   
   .lg-start{
     justify-content: start;
+  }
+
+  .lg-wrap {
+    flex-wrap: wrap;
   }
 }

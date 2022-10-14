@@ -29,7 +29,7 @@ $columns: (
 }
 
 @each $name, $value in $columns{
-  @media (max-width:768px){
+  @media (min-width: 481px) and (max-width:768px){
     .md-col-#{$name} {
       width: $value;
     }
@@ -37,7 +37,7 @@ $columns: (
 }
 
 @each $name, $value in $columns{
-  @media (max-width: 1024px){
+  @media (min-width: 769px) and (max-width: 1024px){
     .lg-col-#{$name} {
       width: $value;
     }
