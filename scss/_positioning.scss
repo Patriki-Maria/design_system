@@ -48,6 +48,9 @@ $pixels: (
     padding-bottom: $value;
   }
 
+}
+
+@each $name, $value in $pixels {
   @media (max-width: 480px) {
     .sm-m-#{$name} {
       margin: $value;
@@ -89,7 +92,9 @@ $pixels: (
       padding-bottom: $value;
     }
   }
+}
 
+@each $name, $value in $pixels {
   @media (max-width: 768px) {
     .md-m-#{$name} {
       margin: $value;
@@ -131,7 +136,9 @@ $pixels: (
       padding-bottom: $value;
     }
   }
+}
 
+@each $name, $value in $pixels {
   @media (max-width: 1024px) {
     .lg-m-#{$name} {
       margin: $value;
@@ -173,6 +180,5 @@ $pixels: (
       padding-bottom: $value;
     }
   }
-
 }
 
